@@ -6,15 +6,14 @@
  * Return: 0
  */
 int main(void)
+int main(void)
 {
-	char n = 'z';
+	char letter;
 
-	while (n >= 'a')
-	{
-		putchar(n);
-		n--;
-	}
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
 
 	putchar('\n');
+
 	return (0);
 }
