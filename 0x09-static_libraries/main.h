@@ -1,5 +1,10 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef MAIN_H
+#define MAIN_H
+
+/*
+ * File: main.h
+ * Desc: Header file containing the prototypes of all functions
+ */
 
 int _putchar(char c);
 int _islower(int c);
